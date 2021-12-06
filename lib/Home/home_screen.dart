@@ -47,7 +47,7 @@ class HomeScreen extends StatelessWidget {
                 height: 10,
               ),
               Container(
-                height: 550,
+                height: 480,
                 width: 325,
                 decoration: BoxDecoration(
                     color: Colors.white,
@@ -110,7 +110,7 @@ class HomeScreen extends StatelessWidget {
                         );
                       },
                       child: const Text(
-                        "Avaliação da Empresa",
+                        "Avaliação de Oficinas",
                         style: TextStyle(color: Colors.black),
                       ),
                       style: ElevatedButton.styleFrom(
@@ -127,84 +127,3 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-    /*/return Scaffold(
-      body: SingleChildScrollView(
-        child: Container(
-          height: MediaQuery.of(context).size.height,
-          width: MediaQuery.of(context).size.width,
-          decoration: const BoxDecoration(
-              gradient: LinearGradient(
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
-                  colors: [
-                Color(0xFF4F4F4F), //cor 1
-                Color(0xFF757575),
-                Color(0xFF93760A)
-              ])),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: <Widget>[
-              const SizedBox(
-                height: 55,
-              ),
-              const SizedBox(
-                height: 15,
-              ),
-              const Text(
-                'Prime Automotive',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 20,
-                ),
-              ),
-              const SizedBox(
-                height: 30,
-              ),
-              Container(
-                height: 480,
-                width: 325,
-                decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(10)),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const <Widget>[
-                    SizedBox(
-                      height: 90,
-                    ),
-                    RaisedButton(
-                      onPressed: null,
-                      child: Text(
-                        "Andamento do chamado",
-                        style: TextStyle(color: Colors.black),
-                      ),
-                    ),
-                    SizedBox(
-                      height: 70,
-                    ),
-                    RaisedButton(
-                      child: Text(
-                        "Avaliação do Serviço",
-                        style: TextStyle(color: Colors.black),
-                      ),
-                      onPressed: null,
-                    ),
-                    SizedBox(
-                      height: 70,
-                    ),
-                    RaisedButton(
-                      onPressed: null,
-                      child: Text(
-                        "Avaliação da Empresa",
-                        style: TextStyle(color: Colors.black),
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );*/
-  

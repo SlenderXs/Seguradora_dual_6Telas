@@ -44,6 +44,63 @@ class ServicoScreen extends StatelessWidget {
                   decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(10)),
+                  child: Container(
+                    width: 360,
+                    height: 640,
+                    padding: const EdgeInsets.only(
+                      left: 20,
+                      right: 15,
+                      bottom: 89,
+                    ),
+                    child: Column(
+                      children: [
+                        SizedBox(
+                          height: 15,
+                        ),
+                        Text(
+                          "Avaliação de oficinas.",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 20,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 70,
+                        ),
+                        Text(
+                          "Diga qual oficina você o senhor(a) utilizou os serviços:",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 20,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 70,
+                        ),
+                        Text(
+                          "Nos dê sua opinião sobre os serviços desta loja em especifica:",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 20,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 70,
+                        ),
+                        Text(
+                          "Diga o que podemos melhorar:",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 20,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                 ),
               ]),
         ),
